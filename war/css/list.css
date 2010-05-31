@@ -1,0 +1,159 @@
+body {
+	background-color: #900;
+}
+
+h1 {
+	margin: auto;
+	font-size: 3em;
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 2%;
+}
+
+#login, #logout {
+    position: absolute;
+    right: 20%;
+    top: 0%;
+    background-color: #900;
+    padding: 0.5%;
+    -moz-border-radius-bottomleft: 10%;
+    -webkit-border-bottom-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    -moz-border-radius-bottomright: 10%;
+    -webkit-border-bottom-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border: 1px solid #300;
+    border-top: 0px;
+}
+
+#login a, #logout a {
+	text-decoration: none;
+    color: #eaeaae;
+    font-weight: bold;
+    font-size: large;
+}
+
+#content {
+    margin: auto;
+    width: 80%;
+    max-width: 1000px;
+    background-color: #eaeaae;
+    height: 100%;
+    border-left: 5px solid #600;
+    border-right: 5px solid #600;
+}
+
+ul#lists {
+	width: 45%;
+	float: left;
+}
+
+ul#lists li {
+	font-size: 1em;
+}
+
+ul#lists li:first-child a {
+	border-top: 2px solid #600;
+	-moz-border-radius-topright: 5%;
+	-webkit-border-top-right-radius: 5%;
+	border-top-right-radius: 5%;
+}
+
+ul#lists li:last-child a {
+	-moz-border-radius-bottomright: 5%;
+	-webkit-border-bottom-right-radius: 5%;
+	border-bottom-right-radius: 5%;
+}
+
+ul#lists li a {
+	display: block;
+	background-color: #b33;
+	padding: 0.5em;
+	border-bottom: 2px solid #600;
+	border-right: 2px solid #600;
+	color: #eaeaae;
+	text-decoration: none;
+}
+
+ul#lists li a:hover {
+	padding-left: 2em;
+	font-weight: bolder;
+}
+
+textarea {
+	font-family: sans-serif;
+}
+
+form {
+	width: 45%;
+	margin: auto;
+}
+
+form div {
+	position: relative;
+}
+
+form div label {
+	position: absolute;
+	top: 0.4em;
+	left: 0.5em;
+	color: #000;
+	font-weight: 900;
+	font-size: large;
+    line-height: 1.5em;
+}
+
+form div input[type=text], form div textarea {
+	text-indent: 50px;
+    line-height: 1.5em;
+}
+
+#add-list-form {
+	float: right;
+}
+
+form div {
+    border: none;
+    margin: 0;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+	font-size: 1em;
+    border: 0;
+    background-color: #b33;
+    color: #eaeaae;
+    border-bottom: 2px solid #600;
+    border-left: 2px solid #600;
+    margin: 0;
+	width: 100%;
+}
+
+form input:focus, form textarea:focus {
+	background-color: #c44;
+}
+
+form input[type=submit] {
+	font-weight: bolder;
+	font-size: larger;
+}
+
+form div:first-child input, form div:first-child textarea {
+    border-top: 2px solid #600;
+}
+
+form div:first-child {
+    -moz-border-radius-topleft: 5%;
+}
+
+form div:first-child input, form div:first-child textarea {
+	-moz-border-radius-topleft: 5%;
+}
+
+form div:last-child {
+    -moz-border-radius-bottomleft: 5%;
+}
+
+form div:last-child input, form div:last-child textarea {
+    -moz-border-radius-bottomleft: 5%;
+}
