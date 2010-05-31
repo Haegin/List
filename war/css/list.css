@@ -22,8 +22,12 @@ h1 {
     position: absolute;
     right: 20%;
     top: 0%;
+}
+
+#login a, #logout a {
     background-color: #900;
-    padding: 0.5%;
+    display: block;
+    padding: 5%;
     -moz-border-radius-bottomleft: 10%;
     -webkit-border-bottom-left-radius: 10%;
     border-bottom-left-radius: 10%;
@@ -32,13 +36,14 @@ h1 {
     border-bottom-right-radius: 10%;
     border: 1px solid #300;
     border-top: 0px;
-}
-
-#login a, #logout a {
 	text-decoration: none;
     color: #eaeaae;
     font-weight: bold;
     font-size: large;
+}
+
+#login a:hover, #logout a:hover, #login a:focus, #logout a:focus {
+	background-color: #c44;
 }
 
 #content {
@@ -84,9 +89,10 @@ ul#lists li a {
 	text-decoration: none;
 }
 
-ul#lists li a:hover {
+ul#lists li a:hover, ul#lists li a:focus {
 	padding-left: 2em;
 	font-weight: bolder;
+	background-color: #c44;
 }
 
 textarea {
@@ -139,7 +145,7 @@ form input, form textarea {
 	width: 100%;
 }
 
-form input:focus, form textarea:focus {
+form input:focus, form textarea:focus, form input:hover, form textarea:hover {
 	background-color: #c44;
 }
 
